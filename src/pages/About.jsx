@@ -80,8 +80,8 @@ const About = () => {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
-    const ABOUT_ME_DESCRIPTION = "Software craftsman and Cloud Solutions Architect with 4 years of experience in developing, deploying and maintaining robust, scalable and high-performance applications. Committed to championing engineering best practices and mentoring team members.";
-    const ABOUT_ME_WORK_EXPERIENCE_DESCRIPTION = "I have worked with all sorts of companies";
+    const ABOUT_ME_DESCRIPTION = "Software craftsman and Cloud Solutions Architect with 4+ years of experience specialized in microservices architecture, cloud-native development, and full-stack engineering with a strong focus on scalability, maintainability and championing engineering best practices.";
+    const ABOUT_ME_WORK_EXPERIENCE_DESCRIPTION = "Proven track record of introducing new technologies, mentoring teams, and delivering high-impact features that drive business value:";
 
     return (
         <section className="max-container">

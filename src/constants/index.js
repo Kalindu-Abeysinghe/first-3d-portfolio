@@ -2,30 +2,13 @@ import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
-    css,
     estate,
-    express,
-    git,
     github,
-    html,
-    javascript,
     linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
     pricewise,
-    react,
-    redux,
-    sass,
     snapgram,
     summiz,
-    tailwindcss,
     threads,
-    typescript,
-    java, springboot, python, fastapi, aws, terraform, gcp, jenkins, docker, kubernetes, sonarqube, elasticsearch,
-    dynamodb, mysql, postgres, redis, keycloak
 } from "../assets/icons";
 
 export const experiences = [
@@ -79,6 +62,7 @@ export const experiences = [
                     "Integrated Google OAuth2.0 to the existing authentication API using Authorization Code flow",
                     "Built a monitoring system for the APIs to send metrics to AWS Cloudwatch using Micrometer and Spring AOP",
                     "Implemented an automated data deletion service with AWS ECS, lambda, SQS and Eventbridge",
+                    "Set up AWS ECS autoscaling for backend services based on SQS queue size",
                     "Introduced Websockets to the company and built a websocket server with Netty-Socket.io on Springboot",
                     "Built a Rest API with Dynamodb to store user settings configuration data",
                     "Gradle java libraries as a means to reuse persistence layer code across microservices was introduced by myself.",

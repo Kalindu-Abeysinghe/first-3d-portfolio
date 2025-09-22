@@ -45,6 +45,7 @@ import redis from './redis.svg'
 import keycloak from './keycloak.svg'
 import postman from './postman.svg'
 import rabbitmq from './rabbitmq.svg'
+import home from './home.svg'
 
 export {
     css,
@@ -93,5 +94,6 @@ export {
     redis,
     keycloak,
     postman,
-    rabbitmq
+    rabbitmq,
+    home
 }

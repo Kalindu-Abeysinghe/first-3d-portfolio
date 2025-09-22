@@ -1,4 +1,5 @@
 import {NavLink} from "react-router-dom";
+import {home} from "../assets/icons/index.js";
 
 const Navbar = () => {
 
@@ -7,7 +8,7 @@ const Navbar = () => {
             <NavLink
                 to="/"
                 className="w-25 h-10 p-2 object-contain rounded-lg bg-white items-center justify-center flex font-bold shadow-md">
-                <p className="blue-gradient_text">Kalindu</p>
+                <img src={home} alt="home-icon"/>
             </NavLink>
             <nav className="flex text-xl gap-10 font-large">
                 <NavLink
